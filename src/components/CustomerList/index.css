@@ -1,0 +1,42 @@
+.customer-list {
+  margin: 20px;
+}
+
+.customer-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-list th, .customer-list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.address-item {
+  font-size: 0.9em;
+  margin-bottom: 3px;
+}
+
+.add-btn {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  background: #2ecc71;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn {
+  margin-right: 5px;
+  padding: 5px 10px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn.delete {
+  background: #e74c3c;
+}

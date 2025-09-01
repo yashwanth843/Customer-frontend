@@ -1,0 +1,59 @@
+.customer-form {
+  max-width: 700px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.customer-form h2 {
+  text-align: center;
+}
+
+.customer-details input,
+.address-field input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.addresses-section {
+  margin-top: 20px;
+}
+
+.address-field {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.add-address-btn,
+.submit-btn,
+.remove-btn {
+  padding: 8px 12px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-address-btn {
+  background: #2ecc71;
+  color: white;
+}
+
+.remove-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.submit-btn {
+  background: #3498db;
+  color: white;
+  width: 100%;
+  margin-top: 15px;
+}
